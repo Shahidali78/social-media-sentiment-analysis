@@ -1,9 +1,9 @@
 # Social Media Sentiment Analysis
 
-## 📌 Project Description
+##  Project Description
 This project performs **sentiment analysis** on social media text data (Twitter Sentiment140 dataset). It classifies text into **positive** and **negative** sentiments using **TF-IDF** vectorization and a **Naïve Bayes classifier**.
 
-## 🚀 Features
+##  Features
 - **Data Preprocessing**: Cleans tweets (removes URLs, hashtags, mentions, stopwords).
 - **Machine Learning Model**: Uses **Multinomial Naïve Bayes** with **TF-IDF**.
 - **Model Evaluation**: Measures accuracy, precision, recall, and F1-score.
@@ -11,7 +11,7 @@ This project performs **sentiment analysis** on social media text data (Twitter 
   - Sentiment distribution plot 📊
   - Word clouds for positive and negative sentiments ☁️
 
-## 📂 Dataset
+##  Dataset
 - **Dataset Used:** [Sentiment140](https://www.kaggle.com/datasets/kazanova/sentiment140)
 - **Columns:** `target`, `id`, `date`, `flag`, `user`, `text`
 - **Sentiment Mapping:**
@@ -19,19 +19,19 @@ This project performs **sentiment analysis** on social media text data (Twitter 
   - `2 → neutral` (removed in this project)
   - `4 → positive`
 
-## 🛠 Installation
+##  Installation
 Ensure you have **Python 3.x** and install the required dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-## 🎯 How to Run the Project
+##  How to Run the Project
 Run the sentiment analysis script:
 ```bash
 python sentiment_analysis.py
 ```
 
-## 📊 EDA Visualizations
+##  EDA Visualizations
 The project includes visualizations:
 - **Sentiment Distribution** (Bar chart)
 - **Word Clouds** for **Positive** and **Negative** sentiments
@@ -49,7 +49,7 @@ Example Output:
 | F1-Score   | 0.77    | 0.76    |
 | **Accuracy** | **76.4%** | - |
 
-## 📌 Future Improvements
+##  Future Improvements
 - Improve performance with **Deep Learning (LSTMs/BERT)**.
 - Deploy the model as a **web app** (Flask/Streamlit).
 - Add **neutral** sentiment analysis.
@@ -58,4 +58,4 @@ Example Output:
 This project is open-source under the MIT License.
 
 ## 💡 Author
-Developed by **[Your Name]**.
+Developed by ** Shahid Ali**.
